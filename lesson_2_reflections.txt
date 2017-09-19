@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+It creates a system that allows to store a history of metadata about the
+changes in the project. We need to do this so we could start making changes
+and submit commits. 
