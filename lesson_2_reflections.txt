@@ -7,4 +7,19 @@ How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 Working directory contains all the files vs. the staging area where files
 are added manually. By adding a file manually, we can bundle logical changes
-that were made on multiple files as a commit focusing only on them. 
+that were made on multiple files as a commit focusing only on them.
+
+How can you use the staging area to make sure you have one commit per logical
+ change?
+ I can add manually only add files that are logically related to the change.
+
+ What are some situations when branches would be helpful in keeping your history
+ organized? How would branches help?
+ Situations where an experimental feature is to be developed and tested can use
+ the branches concept as we can revert to the main master branch in case things
+ don't work out. Branches might also be useful when translating app (we still
+ would like to use the main branch for development).
+
+ How do the diagrams help you visualize the branch structure?
+ Diagrams can display the connections between different branches and commits and
+ point to the position of a certain commit, relative to another one. 
