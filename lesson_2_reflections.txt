@@ -1,4 +1,10 @@
 What happens when you initialize a repository? Why do you need to do it?
 It creates a system that allows to store a history of metadata about the
 changes in the project. We need to do this so we could start making changes
-and submit commits. 
+and submit commits.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+Working directory contains all the files vs. the staging area where files
+are added manually. By adding a file manually, we can bundle logical changes
+that were made on multiple files as a commit focusing only on them. 
