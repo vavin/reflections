@@ -31,4 +31,14 @@ are compared to their parent commit (so the process uses the knowledge of which
 lines were removed so that it won't reintroduce them in the merge). Representing
 it in a diagram gives us an idea of how much each branch has progressed and
  changed and might and gives us an indication of whether to make the merge the
- way we first intended. 
+ way we first intended.
+
+ What are the pros and cons of Git’s automatic merging vs. always doing merges
+ manually?
+ Pros:
+ Saves time as opposed to doing it manually
+ Cons:
+ The process might introduce mistakes or changes that we didn't take into
+ account because the human does not make the review. There might be things
+ we wouldn't like to merge but will get introduced anyway into the code
+ because we didn't review the two commits beforehand. 
