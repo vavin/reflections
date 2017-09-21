@@ -22,4 +22,13 @@ How can you use the staging area to make sure you have one commit per logical
 
  How do the diagrams help you visualize the branch structure?
  Diagrams can display the connections between different branches and commits and
- point to the position of a certain commit, relative to another one. 
+ point to the position of a certain commit, relative to another one.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+The changes introduce in each branch are merged using a strategy where they
+are compared to their parent commit (so the process uses the knowledge of which
+lines were removed so that it won't reintroduce them in the merge). Representing
+it in a diagram gives us an idea of how much each branch has progressed and
+ changed and might and gives us an indication of whether to make the merge the
+ way we first intended. 
